@@ -106,10 +106,12 @@ public class LinkedCollection implements ListInterface {
     @Override
     public void print() {
         Element tmp = element;
+        System.out.println("");
         while (tmp.getNextElement()!=null){
-            System.out.println(tmp.getValue()+ " ");
+            System.out.print(tmp.getValue()+ ", ");
             tmp = tmp.getNextElement();
         }
+        System.out.println("");
     }
 }
 
