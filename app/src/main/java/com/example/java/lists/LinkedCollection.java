@@ -9,7 +9,7 @@ public class LinkedCollection implements ListInterface {
     Element next = new Element();
 
     //simple text
-    //
+    //another text
 
 
     @Override
