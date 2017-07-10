@@ -8,6 +8,8 @@ public class LinkedCollection implements ListInterface {
     Element element;
     Element next = new Element();
 
+    //simple text
+
 
     @Override
     public void add(int number) {
