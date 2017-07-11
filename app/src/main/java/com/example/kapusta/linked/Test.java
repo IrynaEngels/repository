@@ -22,7 +22,7 @@ public class Test extends LinkedCollection {
         collection.addToIndex(71, 2);
         System.out.println("ind2 " + collection.getElementByIndex(2));
 
-//        collection.delete(2);
+        collection.delete(2);
         collection.print();
         System.out.println("sort");
         collection.sort();
